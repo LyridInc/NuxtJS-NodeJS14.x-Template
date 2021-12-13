@@ -1,7 +1,22 @@
 <template>
-  <Tutorial/>
+  <SplashPage/>
 </template>
 
 <script>
-export default {}
+import SplashPage from "../components/SplashPage";
+export default {
+  components: {SplashPage}
+}
 </script>
+
+<style>
+body {
+  margin: 0;
+  font-family: "Poppins",serif;
+}
+
+a, p {
+  text-decoration: none;
+}
+
+</style>
