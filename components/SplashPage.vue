@@ -8,7 +8,7 @@
           <h1 class="title">Welcome to Lyrid</h1>
           <p class="subtitle">Get started by editing your Nuxt.JS Application.
             <br/>
-            <a href="https://nextjs.org/docs/getting-started" style="color: white; font-weight: bold">Documentation</a>
+            <a href="https://nuxtjs.org/docs/get-started" style="color: white; font-weight: bold">Documentation</a>
           </p>
         </div>
         <div>
