@@ -1,39 +1,41 @@
 <template>
-  <div class="main">
-    <div class="left">
-      <div class="atas">
-        <img src="~assets/img/logo.png" alt='logo'/>
-        <br/>
-        <h1 class="title">Welcome to Lyrid</h1>
-        <p class="subtitle">Get started by editing your Next.JS Application.
+  <div class="container">
+    <div class="main">
+      <div class="left">
+        <div class="atas">
+          <img src="~assets/img/logo.png" alt='logo'/>
           <br/>
-          <a href="https://nextjs.org/docs/getting-started" style="color: white; font-weight: bold">Documentation</a>
-        </p>
+          <h1 class="title">Welcome to Lyrid</h1>
+          <p class="subtitle">Get started by editing your Nuxt.JS Application.
+            <br/>
+            <a href="https://nextjs.org/docs/getting-started" style="color: white; font-weight: bold">Documentation</a>
+          </p>
+        </div>
+        <div>
+          <img src="~assets/img/white.png" alt='mascot putih'/>
+        </div>
       </div>
-      <div>
-        <img src="~assets/img/white.png" alt='mascot putih'/>
-      </div>
-    </div>
-    <div class="right">
-      <div class="docsEx">
-        <a href="https://docs.lyrid.io" class={styles.boxRight}>
-          <div>
-            <div class="boxTitle">
-              <h5 class="docs">Documentation</h5>
-              <img class="arrow" src="~assets/img/right-arrow.png" alt='right-arrow'/>
+      <div class="right">
+        <div class="docsEx">
+          <a href="https://docs.lyrid.io" class="boxRight">
+            <div>
+              <div class="boxTitle">
+                <h5 class="docs">Documentation</h5>
+                <img class="arrow" src="~assets/img/right-arrow.png" alt='right-arrow'/>
+              </div>
+              <p class="ex">Find in-depth information about Lyrid features and API.</p>
             </div>
-            <p class="ex">Find in-depth information about Lyrid features and API.</p>
-          </div>
-        </a>
-        <a href="https://github.com/LyridInc" class={styles.boxRight}>
-          <div>
-            <div class="boxTitle">
-              <h5 class="docs">Examples</h5>
-              <img class="arrow" src="~assets/img/right-arrow.png" alt='right-arrow'/>
+          </a>
+          <a href="https://github.com/LyridInc" class="boxRight">
+            <div>
+              <div class="boxTitle">
+                <h5 class="docs">Examples</h5>
+                <img class="arrow" src="~assets/img/right-arrow.png" alt='right-arrow'/>
+              </div>
+              <p class="ex">Discover and deploy boilerplate example Nuxt.js projects.</p>
             </div>
-            <p class="ex">Discover and deploy boilerplate example Next.js projects.</p>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -41,7 +43,12 @@
 
 <script>
 export default {
-  name: "SplashPage"
+  name: "SplashPage",
+  head() {
+    return {
+      title: "Welcome to Lyrid"
+    }
+  }
 }
 </script>
 
