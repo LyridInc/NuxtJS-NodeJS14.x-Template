@@ -1,72 +1,58 @@
-# lyrid-nuxt
+# NuxtJS-NodeJS14.x-Template
 
-## Build Setup
+## SAMPLE TEMPLATE
+![hi](/asset/img/lyrid_logo_large.png)
+This template is for _language_ suitable for uploading to the Lyrid Platform.
 
-```bash
-# install dependencies
-$ npm install
+## Prerequisites 
+1. Register an account at [Lyrid Web Application](https://app.beta.lyrid.io/) 
+2. Download our command line tool, [the lc](https://docs.lyrid.io/initialization)
+3. Clone the repo 'git clone https://github.com/sample_here'
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+## Run locally with:
+```
+npm i
+npm start
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+Open http://localhost:3000
 
-## Special Directories
+## Edit the names (optional):
+Open .lyrid-definition and change the App and Module name, because this will override another applications with the same name in the platform.
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+## User can clone this repo, then Replace these variables in all files :
+- YOUR_APP_NAME
+- YOUR_MODULE_NAME
+- YOUR_FUNCTION_NAME
 
-### `assets`
+To change your file information:
+Open ```.lyrid-definition.YML``` file
+Change ```name``` and ```module name``` to your choice and save.
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+### Start Coding!
+Users can edit route url, settings, and views with custom APIs. 
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+### Submit to Lyrid 
+Use our command line tool to easily upload your application to the cloud.
+```
+lc code submit
+```
 
-### `components`
+## Start hacking:
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+Edit the routes at /src/entry/entry.js with your custom API. 
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+Add more middlewares or your business logic in there.
 
-### `layouts`
+## Contact Us
+Have any questions? We are here to help!
+Email us at support@lyrid.io  
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+### Find us on social medias
+- [Discord](https://discord.com/invite/xtCCtc9WAX)
+- [LinkedIn](https://www.linkedin.com/company/lyrid/?viewAsMember=true)
+- [Twitter](https://twitter.com/LyridInc)
+- [Facebook](https://www.facebook.com/lyridinc)
 
 <a href="https://app.lyrid.io/login?one-click-deploy=true&origin=github&repository-url=https://github.com/LyridInc/NuxtJS-Node14.x-Template.git&env=empty&project-type=nuxtjs&repo-name=NuxtJS-Node14.x-Template">
   <button>
